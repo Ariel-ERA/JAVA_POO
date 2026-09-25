@@ -1,10 +1,10 @@
-public class Herencia {
+public class Herencia  {
 
-    public static void main(String[] args) {
+    public static void  main (String [] args) {
 
         Dispositivo dispositivo = new Dispositivo("Robot", true);
 
-        dispositivo.mostrarEstatus();
+        dispositivo.mostrarEstado();
         dispositivo.ejecutarDiagnostico();
     }
 }
