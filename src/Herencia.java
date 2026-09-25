@@ -4,8 +4,6 @@ public class Herencia {
 
         Dispositivo dispositivo = new Dispositivo("Robot", true);
 
-        System.out.println(" \n\t Dispositivo \n\n\t " + dispositivo);
-
         dispositivo.mostrarEstatus();
         dispositivo.ejecutarDiagnostico();
     }
